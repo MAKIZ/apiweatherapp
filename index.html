@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Weather app!!!!!</title>
+  <link rel='stylesheet' type='text/css' href='./styles/reset.css'>
+  <link rel='stylesheet' type='text/css' href='./styles/font-awesome/css/font-awesome.min.css'>
+  <link rel='stylesheet' type='text/css' href='./styles/style.css'>
+</head>
+<body>
+  <!-- 
+    HTML NEEDS
+    - input box
+    - submit button
+    - an element with a unique class, id, or data-attribute
+      for each of the weather metrics you want to put on the page.
+   -->
+   <div id="main-container">
+
+    <h1>THE WEATHER APP</h1>
+
+     <div id="container">
+      <div id="search-holder">
+          <input id="search" placeholder="ENTER YOUR ZIPCODE">
+          <div id="btn"><i class="fa fa-search" aria-hidden="true"></i></div>
+      </div>
+     </div>
+
+    <h2 id="cityname"></h2>
+
+    <div id="maintemp">
+      <p id="temp"></p>
+      <p id="deg"></p>
+    </div>
+      
+
+    <h3 id="weather"></h3>
+
+    <div id="temp-holder">
+      <p id="mintemp"></p>
+      <p id="maxtemp"></p>
+    </div>
+   </div>
+
+  <script src='./src/jquery.js'></script>
+  <script src='./src/main.js'></script>
+</body>
+</html>
